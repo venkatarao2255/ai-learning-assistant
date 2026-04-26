@@ -1,123 +1,96 @@
-# 🧠 AI Learning Assistant (RAG + LLM + Code Evaluation)
+🧠 AI Learning Assistant (RAG + LLM + Code Evaluation System)
 
-An AI-powered full-stack learning assistant that helps students learn Data Structures & Algorithms interactively using:
+An AI-powered full-stack learning platform that helps students master Data Structures & Algorithms (DSA) through an interactive, intelligent tutor system.
 
-- 🧠 LLM-powered chat tutor
-- 📚 Problem generation engine
-- ⚙️ Code evaluation system (Java)
-- 🔍 RAG-style contextual responses
+It combines:
 
----
+🧠 Large Language Models (LLMs)
+📚 Dynamic problem generation
+⚙️ Java code evaluation engine
+🔍 RAG (Retrieval-Augmented Generation) style responses
+📸 Project Preview
 
-# 📸 Project Preview
-
-https://res.cloudinary.com/domfamgtf/image/upload/v1777185376/Screenshot_2026-04-26_112559_jjda6k.png
-
----
-
-# 🏗️ System Architecture
-
-
+🏗️ System Architecture
 Frontend (React)
-↓
-Backend (Node + Express)
-↓
-LLM API (OpenRouter / GPT)
-↓
-RAG + Prompt Engine
-
-
----
-
-# 📁 Folder Structure
-
-
+      ↓
+Backend (Node.js + Express)
+      ↓
+LLM API (OpenRouter / GPT Models)
+      ↓
+RAG + Prompt Engineering Layer
+📁 Project Structure
 AI-LEARNING-ASSISTANT/
 │
 ├── ai-learning-backend/
-│ ├── config/
-│ ├── controllers/
-│ ├── routes/
-│ ├── services/
-│ ├── server.js
-│ ├── .env
-│ ├── package.json
-│ └── node_modules/
+│   ├── config/              # Configuration files (DB, API keys)
+│   ├── controllers/        # Request handlers
+│   ├── routes/             # API routes
+│   ├── services/          # AI + evaluation logic
+│   ├── server.js          # Entry point
+│   ├── .env               # Environment variables
+│   ├── package.json
 │
 ├── frontend/
-│ ├── src/
-│ ├── public/
-│ ├── package.json
-│ ├── .gitignore
-│ └── node_modules/
-
-
----
-
-# ⚙️ Features
-
-## 🧠 AI Chat Tutor
-- Ask DSA questions in natural language
-- Get structured explanations
-
-## 📚 Problem Generator
-- Generates DSA problems dynamically
-- Focus on stacks, queues, arrays
-
-## ⚙️ Code Evaluation Engine
-- Accepts Java solutions
-- Detects logical errors
-- Suggests optimizations
-
-## 🔍 RAG-based Responses
-- Context-aware AI answers
-- Improved accuracy via prompt engineering
-
----
-
-# 🛠️ Tech Stack
-
-### Frontend
-- React (Vanilla JS approach)
-- HTML + CSS
-
-### Backend
-- Node.js
-- Express.js
-
-### AI Layer
-- OpenRouter / LLM APIs
-- Prompt Engineering
-- RAG-style logic
-
----
-
-# 🚀 How to Run Project
-
-## 🔹 Backend
-```bash
+│   ├── src/               # React source code
+│   ├── public/
+│   ├── package.json
+│   ├── .gitignore
+│
+└── README.md
+⚙️ Key Features
+🧠 AI Chat Tutor
+Ask any DSA question in natural language
+Get structured, step-by-step explanations
+Concept-focused learning experience
+📚 Dynamic Problem Generator
+Generates coding problems on demand
+Covers Arrays, Stacks, Queues, Linked Lists, etc.
+Adjustable difficulty (Easy → Medium → Hard)
+⚙️ Code Evaluation Engine
+Accepts Java solutions
+Validates logic and structure
+Suggests optimizations and corrections
+🔍 RAG-Powered Intelligence
+Context-aware responses using prompt engineering
+Improved accuracy using retrieved learning context
+Reduces hallucination in AI responses
+🛠️ Tech Stack
+🎨 Frontend
+React.js (Vite)
+HTML5 + CSS3
+⚙️ Backend
+Node.js
+Express.js
+🤖 AI Layer
+OpenRouter / GPT APIs
+Prompt Engineering
+RAG-style architecture
+🚀 How to Run This Project
+🔹 Backend Setup
 cd ai-learning-backend
 npm install
 node server.js
-🔹 Frontend
+🔹 Frontend Setup
 cd frontend
 npm install
 npm run dev
 🔌 API Endpoints
-💬 Chat
+💬 Chat with AI Tutor
 POST /chat
-📚 Generate Problem
+📚 Generate DSA Problem
 GET /problem
 ⚙️ Evaluate Code
 POST /evaluate
-🧠 Key Learning Outcomes
-Full-stack AI system design
-Prompt engineering for LLMs
-Backend API architecture
-Frontend UI integration
-Real-world AI workflow design
+🧠 What I Learned From This Project
+Designing full-stack AI systems
+Implementing RAG-based architecture
+Building LLM-powered applications
+Backend API structuring using Node.js + Express
+Prompt engineering for reliable AI responses
+Real-world system integration (frontend + backend + AI APIs)
 📌 Future Improvements
-Add vector database (Pinecone / Chroma)
-Add authentication system
-Add leaderboard for students
-Add multi-language code evaluation
+🔍 Add Vector Database (Pinecone / ChromaDB)
+🔐 User authentication & progress tracking
+🏆 Student leaderboard system
+🌐 Multi-language code evaluation support
+📊 Analytics dashboard for learning insights
