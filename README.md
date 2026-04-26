@@ -1,7 +1,13 @@
-# 🧠 AI Learning Assistant
-### RAG + LLM + Java Code Evaluation System
+# 🧠 AI Learning Assistant  
+### RAG + LLM + Code Evaluation System  
 
 An AI-powered full-stack learning platform designed to help students master **Data Structures & Algorithms (DSA)** through an interactive, intelligent tutor system. This project bridges the gap between passive learning and active coding by combining LLM-driven guidance with real-time code validation.
+
+---
+
+## 📸 Project Preview
+
+![AI Learning Assistant Preview](https://res.cloudinary.com/domfamgtf/image/upload/v1777185376/Screenshot_2026-04-26_112559_jjda6k.png)
 
 ---
 
@@ -9,19 +15,19 @@ An AI-powered full-stack learning platform designed to help students master **Da
 
 The platform follows a decoupled client-server architecture with an integrated AI orchestration layer:
 
-1.  **Frontend (React):** Provides an interactive UI for chat, problem viewing, and code submission.
-2.  **Backend (Node.js + Express):** Handles routing, logic, and integration with external APIs.
-3.  **LLM API (OpenRouter/GPT):** The core intelligence engine for generating explanations and problems.
-4.  **RAG Layer:** Ensures accuracy by grounding AI responses in verified DSA pedagogical context.
+1. **Frontend (React):** Provides an interactive UI for chat, problem viewing, and code submission.  
+2. **Backend (Node.js + Express):** Handles routing, logic, and integration with external APIs.  
+3. **LLM API (OpenRouter/GPT):** The core intelligence engine for generating explanations and problems.  
+4. **RAG Layer:** Ensures accuracy by grounding AI responses in verified DSA pedagogical context.  
 
 ---
 
 ## ⚙️ Key Features
 
-* **🧠 AI Chat Tutor:** Ask any DSA question in natural language and receive structured, step-by-step conceptual explanations.
-* **📚 Dynamic Problem Generator:** Generates on-demand coding problems (Arrays, Stacks, Queues, etc.) with adjustable difficulty levels.
-* **⚙️ Code Evaluation Engine:** Specialized logic to evaluate Java solutions, validate structure, and suggest optimizations.
-* **🔍 RAG-Powered Intelligence:** Context-aware responses that utilize prompt engineering to reduce hallucinations and improve factual accuracy.
+- 🧠 **AI Chat Tutor:** Ask any DSA question in natural language and receive structured, step-by-step conceptual explanations.  
+- 📚 **Dynamic Problem Generator:** Generates on-demand coding problems (Arrays, Stacks, Queues, etc.) with adjustable difficulty levels.  
+- ⚙️ **Code Evaluation Engine:** Evaluates Java solutions, validates structure, and suggests optimizations in real-time.  
+- 🔍 **RAG-Powered Intelligence:** Context-aware responses using retrieval-augmented generation to reduce hallucinations.  
 
 ---
 
