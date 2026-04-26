@@ -1,0 +1,161 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* MAIN LAYOUT */
+.app-container {
+  display: flex;
+  height: 100vh;
+  background: #0f172a;
+  color: white;
+}
+
+/* SIDEBAR */
+.sidebar {
+  width: 320px;
+  background: #111827;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-right: 1px solid #1f2937;
+}
+
+.logo {
+  font-size: 18px;
+  font-weight: bold;
+  color: #38bdf8;
+  margin-bottom: 10px;
+}
+
+.section {
+  background: #1f2937;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+/* CHAT AREA */
+.chat-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+/* HEADER */
+.chat-header {
+  padding: 15px 20px;
+  border-bottom: 1px solid #1f2937;
+}
+
+.chat-header h2 {
+  font-size: 20px;
+  color: #38bdf8;
+}
+
+.chat-header p {
+  font-size: 12px;
+  color: #94a3b8;
+  margin-top: 4px;
+}
+
+/* CHAT BOX AREA */
+.messages {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+/* MESSAGE */
+.message {
+  max-width: 70%;
+  padding: 10px 14px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  font-size: 14px;
+  white-space: pre-wrap;
+}
+
+.user {
+  background: #2563eb;
+  margin-left: auto;
+}
+
+.bot {
+  background: #374151;
+  margin-right: auto;
+}
+
+/* INPUT */
+.input-box {
+  display: flex;
+  padding: 15px;
+  border-top: 1px solid #1f2937;
+  background: #0b1220;
+}
+
+.input-box input {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  outline: none;
+  background: #1f2937;
+  color: white;
+  border-radius: 8px;
+}
+
+.input-box button {
+  margin-left: 10px;
+  padding: 10px 16px;
+  background: #38bdf8;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* PANELS */
+.problem-btn {
+  background: #22c55e;
+  color: white;
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+}
+
+.evaluate-btn {
+  background: #a855f7;
+  color: white;
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  margin-top: 10px;
+}
+
+/* OUTPUT */
+.output {
+  margin-top: 10px;
+  background: #111827;
+  padding: 10px;
+  border-radius: 8px;
+  max-height: 200px;
+  overflow-y: auto;
+  white-space: pre-wrap;
+}
+
+/* TEXTAREA */
+textarea {
+  width: 100%;
+  margin-top: 10px;
+  padding: 10px;
+  background: #111827;
+  border: 1px solid #374151;
+  color: white;
+  border-radius: 8px;
+  resize: none;
+  outline: none;
+}
